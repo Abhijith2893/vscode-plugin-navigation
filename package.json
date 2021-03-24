@@ -10,14 +10,18 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:file-navigator.helloWorld"
+		"*"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "file-navigator.helloWorld",
-				"title": "Hello World"
+				"command": "file-navigator.createStack",
+				"title": "Create Stack"
+			},
+			{
+				"command": "file-navigator.navigateBack",
+				"title": "Navigate Back"
 			}
 		]
 	},
