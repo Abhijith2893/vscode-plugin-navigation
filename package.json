@@ -3,7 +3,7 @@
 	"displayName": "File Navigator",
 	"description": "to navigate back to file",
 	"version": "0.0.1",
-	"publisher": "abhijith",
+	"publisher": "AbhijithManoharJ",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^1.54.0"
