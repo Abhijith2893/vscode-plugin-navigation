@@ -10,20 +10,30 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "file-navigator.createStack",
-				"title": "Create Stack"
-			},
-			{
 				"command": "file-navigator.navigateBack",
-				"title": "Navigate Back"
+				"title": "⬅️"
 			}
-		]
+		],
+		"menus": {
+			"editor/title": [
+			  {
+				"command": "file-navigator.navigateBack",
+				"group": "navigation"
+			  }
+			],
+			"commandPalette": [
+				{
+					"command": "file-navigator.navigateBack",
+					"when": "never"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
