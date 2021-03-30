@@ -1,5 +1,7 @@
 # README
 
+https://marketplace.visualstudio.com/items?itemName=AbhijithManoharJ.file-navigator
+
 ## Features
 
 Plugin provides 'Back' button to navigate back to previous active text editor file
