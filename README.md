@@ -14,4 +14,4 @@ Provides way to navigate back to source text editor file after "drilling" into a
 
 ### 1.0.0
 
-Initial release of file-vigation plugin
+Initial release of file-navigation plugin
