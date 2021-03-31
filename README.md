@@ -6,7 +6,7 @@ https://marketplace.visualstudio.com/items?itemName=AbhijithManoharJ.file-naviga
 
 Plugin provides 'Back' button to navigate back to previous active text editor file
 
-![Back button](images/example.png)
+![Back button](https://vscode-extension-image.s3.amazonaws.com/Screen+Shot+2021-03-29+at+8.49.39+PM.png)
 
 ## Use Case
 
